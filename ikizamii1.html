@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>quiz</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="sta.css">
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+
+<body>
+	<div class="form custom-box ">
+
+<span><small>amategeko y'umuhanda</small></span>
+<h1>ISUZUMA BUMENYI RY'IKIZAMI ONLINE</h1>
+	
+ <input type="text"class="form_text" placeholder="Injizamo code yawe">
+ <button class="emeza_btn" onclick="emeza()">Emeza</button>
+<span>urugero:NYG1205022134524300</span>
+</div>
+<div class="home-box custom-box hide  ">
+	
+<h3>amabwiriza:</h3>	
+	<p>Ibibazo byose: <span class="total-questions"></span></p>	
+		<p>Iminota: <span class="total-questions">20</span></p>
+	<p>Gutsinda: <span class="total-questions">12/20</span></p>	
+	<button type="button" class="btn"onclick="startQuiz()">TANGIRA</button>
+	</div>	
+	
+
+	
+<div class="quiz-box custom-box hide">	
+	
+	<header>
+		
+		<div class="question-number"></div>
+		 
+		<div class="timer float-right">
+		<div class="time_text ">time:</div>
+			<div class="timer_sec">20</div>
+		
+		</div>
+		
+		<!--<p id="countdown">20</p>-->
+		<!--<div class="time_line"></div>-->
+		 
+	 </header>
+<div class="question-text">
+	</div>
+	
+<div class="option-container">
+	
+	
+	</div>	
+	
+	<div class="next-question-btn">
+	<!--	<button type="button" class="pbtn" onclick="prev()">previous</button>-->
+	<button type="button" class="nbtn" onclick="next()">Next</button>
+	<button type="button" class="sbtn" onclick="sbtn()">soza</button>
+	
+	</div>
+
+	
+	
+	
+	</div>	
+	 <div class="result-box custom-box hide">
+	<h1>Amanota</h1>
+	 <table>
+	 <tr>
+	<td>Ibibazo byose</td>	 
+		<td><span class="total-question"></span></td> 
+		 </tr>
+	 
+	 <tr>
+	<td>Ibyo wakoze byose</td>	 
+	<td><span class="total-attempt"></span></td>	 
+		 </tr>
+	 <tr>
+	<td>Iby'ukuri</td>	 
+	<td><span class="total-correct"></span></td>	 
+		 </tr>
+		  <tr>
+	<td>Ibyo wishe</td>	 
+	<td><span class="total-wrong"></span></td>	 
+		 </tr>
+	 <tr>
+	<td>percentage</td>	 
+	<td><span class="percentage"></span></td>	 
+		 </tr>
+	 	 
+ <tr>
+	<td>amanota wagize</td>	 
+	<td><span class="score"></span></td>	 
+		 </tr>
+	 </table>
+	
+	<button type="button" class="btn" onclick="subiramo()">Subiramo</button>
+		<a href="Home.HTML" class="btn">Ahabanza</a>
+	</div>
+	
+	
+	<script src="ikizami1.js"></script>
+	<script src="scr.js"></script>
+	</body>
+
+</html>
